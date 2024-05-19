@@ -10,5 +10,21 @@ const RickAndMortyCharacters = [
 RickAndMortyCharacters.pop();
 /* Elimina el último elemento del array, no necesita ningún parametro, directamente lo elimina */
 
-const lastIndex = RickAndMortyCharacters.length - 1;
+let lastIndex = RickAndMortyCharacters.length - 1;
+
 console.log(RickAndMortyCharacters[0], RickAndMortyCharacters[lastIndex]);
+
+/* Or */
+
+let RickAndMortyCharacters = [
+  "Rick",
+  "Beth",
+  "Jerry",
+  "Morty",
+  "Summer",
+  "Lapiz Lopez",
+];
+
+RickAndMortyCharacters.pop();
+
+console.log(RickAndMortyCharacters[0], RickAndMortyCharacters[4]);
